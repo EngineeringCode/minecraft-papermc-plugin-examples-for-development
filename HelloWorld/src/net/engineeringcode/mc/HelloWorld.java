@@ -42,7 +42,7 @@ public class HelloWorld extends JavaPlugin {
 		Random random = new Random(System.currentTimeMillis());
 		switch (random.nextInt(5)) {
 		case 0:
-			getServer().broadcastMessage("본 서버는 이스트큐브 서버이며 홈페이지 주소는 https://www.eastcube.net/ 입니다.");
+			getServer().broadcastMessage("본 서버는 --이며 홈페이지 주소는 https://--입니다.");
 			break;
 		case 1:
 			getServer().broadcastMessage("현재 서버는 PaperMC를 기반으로 구성되었습니다.");
