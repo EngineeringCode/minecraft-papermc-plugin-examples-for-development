@@ -1,0 +1,21 @@
+name: HelloWorld
+version: 1.0.0
+description: My first Minecraft plugin.
+# Comments
+author: Engineeringcode
+website: https://sites.google.com/site/hcpark1993
+
+main: net.engineeringcode.mc.HelloWorld
+api-version: 1.15
+
+commands:
+  helloworld.hello:
+    description: Set yourself on fire.
+    aliases: [hi, hello]
+    permission: helloworld.hello
+    usage: Syntax error! Simply type /hi or /hello
+
+permissions:
+  helloworld.hello:
+    description: hello brothers
+    default: true
