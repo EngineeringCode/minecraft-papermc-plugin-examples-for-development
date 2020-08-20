@@ -3,7 +3,7 @@ version: 1.0.0
 description: My first Minecraft plugin.
 # Comments
 author: Engineeringcode
-website: https://sites.google.com/site/hcpark1993
+website: https://www.engineeringcode.net/
 
 main: net.engineeringcode.mc.HelloWorld
 api-version: 1.15
