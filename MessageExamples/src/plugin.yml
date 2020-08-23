@@ -9,13 +9,5 @@ main: net.engineeringcode.mc.MessageExamples
 api-version: 1.15
 
 commands:
-  helloworld.hello:
-    description: Set yourself on fire.
-    aliases: [hi, hello]
-    permission: helloworld.hello
-    usage: Syntax error! Simply type /hi or /hello
 
 permissions:
-  helloworld.hello:
-    description: hello brothers
-    default: true

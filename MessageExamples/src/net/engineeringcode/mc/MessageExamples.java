@@ -9,8 +9,6 @@ import java.util.logging.Logger;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import net.engineeringcode.command.MessageCommand;
-
 public class MessageExamples extends JavaPlugin {
 	Logger logger = getServer().getLogger();
 	Timer timerForAnnouncement = new Timer();
@@ -21,9 +19,6 @@ public class MessageExamples extends JavaPlugin {
 		super.onEnable();
 		logger.info("onEnable() 메세지 예제 플러그인");
 		logger.info("onEnable() Message Examples Plugin");
-		
-		// 명령어 목록을 가져온다.
-		new MessageCommand(this);
 		
 		// 일정 주기로 공지사항을 전파하기 위한 타이머. 타이머 시작 후 5초 후 부터 실행되며 그 이후는 30초 마다 실행된다.
 		timerForAnnouncement.schedule(new TimerTask() {
