@@ -2,8 +2,8 @@ name: TeleportExamples
 version: 1.0.0
 description: Paper Teleport API examples.
 # Comments
-author: Engineeringcode
-website: https://www.engineeringcode.net/
+author: engineeringcode93@gmail.com
+website: https://engineeringcode.tistory.com/
 
 main: net.engineeringcode.mc.Teleport
 api-version: 1.15

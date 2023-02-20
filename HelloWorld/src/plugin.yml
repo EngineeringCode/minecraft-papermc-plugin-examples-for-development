@@ -2,8 +2,8 @@ name: HelloWorld
 version: 1.0.0
 description: My first Minecraft plugin.
 # Comments
-author: Engineeringcode
-website: https://www.engineeringcode.net/
+author: engineeringcode93@gmail.com
+website: https://engineeringcode.tistory.com/
 
 main: net.engineeringcode.mc.HelloWorld
 api-version: 1.15
