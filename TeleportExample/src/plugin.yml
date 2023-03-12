@@ -1,0 +1,29 @@
+name: TeleportExample
+version: 1.0.0
+description: Paper Teleport API examples.
+# Comments
+author: engineeringcode93@gmail.com
+website: https://engineeringcode.tistory.com/
+
+main: net.engineeringcode.mc.Teleport
+api-version: 1.15
+
+commands:
+  teleport.teleport:
+    description: teleport a player to the position
+    aliases: [teleport]
+    permission: teleport.teleport
+    usage: Syntax error! Simply type /teleport <target> <x> <y> <z>
+  teleport.teleportAll:
+    description: teleport all players to fixed position
+    aliases: [teleport]
+    permission: teleport.teleportAll
+    usage: Syntax error! Simply type /teleportAll
+
+permissions:
+  teleport.teleport:
+    description: /teleport <target> <x> <y> <z>
+    default: true
+  teleport.teleportAll:
+    description: /teleportAll
+    default: true
