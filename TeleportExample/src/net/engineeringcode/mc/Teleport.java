@@ -16,21 +16,21 @@ public class Teleport extends JavaPlugin {
 	public void onEnable() {
 		super.onEnable();
 		logger.info("onEnable() 순간이동 예제 플러그인");
-		logger.info("onEnable() Teleport Examples Plugin");
+		logger.info("onEnable() Teleport Example Plugin");
 	}
 	
 	@Override
 	public void onLoad() {
 		super.onLoad();
 		logger.info("onLoad() 순간이동 예제 플러그인");
-		logger.info("onLoad() Teleport Examples Plugin");
+		logger.info("onLoad() Teleport Example Plugin");
 	}
 	
 	@Override
 	public void onDisable() {
 		super.onDisable();
 		logger.info("onDisable() 순간이동 예제 플러그인");
-		logger.info("onDisable() Teleport Examples Plugin");
+		logger.info("onDisable() Teleport Example Plugin");
 	}
 	
 	/**
