@@ -4,4 +4,4 @@
 =
 * 공학코드 블로그 : https://engineeringcode.tistory.com/
 * 공학코드 유튜브 : https://www.youtube.com/channel/UCfZkIfvTDOtizbhEgFCDUSA
-* 코어큐브 - 마인크래프트 개발자 공간 : https://cafe.naver.com/ewsncube
+* 코어큐브 - 컴퓨터 소프트웨어 개발자 커뮤니티 : https://cafe.naver.com/ewsncube
